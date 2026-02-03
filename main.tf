@@ -5,7 +5,7 @@ module "aws_db_restore_test" {
   snapshot_identifier        = "rds:message-reporting-dev-us-2025-09-06-05-11"
   password_secret_version_id = "arn:aws:secretsmanager:us-east-1:455077397705:secret:rds_restore_test-jwxlkB"
   password_secret_key_name   = "db_admin"
-  script_name                = "message-reporting-dev.sql"
+  script_name                = "generic-reporting-db.sql"
 }
 
 /*
