@@ -1,4 +1,4 @@
-/*
+
 module "aws_db_restore_test" {
   source                     = "./modules/aws_restore"
   instance_identifier        = "message-reporting-dev-us"
@@ -7,8 +7,8 @@ module "aws_db_restore_test" {
   password_secret_key_name   = "db_admin"
   script_name                = "message-reporting-dev.sql"
 }
-*/
 
+/*
 module "gcp_db_restore_test" {
   source              = "./modules/gcp_restore"
   project_id          = "portal-prd-rotw-ea62"
@@ -19,3 +19,4 @@ module "gcp_db_restore_test" {
   database_name       = "billing"
   script_name         = "billing.sql"
 }
+*/
